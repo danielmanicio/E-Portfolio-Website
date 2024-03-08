@@ -23,6 +23,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
 }
@@ -77,7 +81,6 @@ nav {
 .nav__link--anchor {
     margin: 0 12px;
     color: #242424;
-    text-decoration: none;
     font-weight: 700;
 }
 
@@ -151,7 +154,6 @@ padding-top: 8px;
 .about-me__link {
     font-size: 20px;
     color: #242424;
-    text-decoration: none;
     padding: 0 16px;
 }
 
@@ -291,6 +293,7 @@ padding-top: 8px;
 .project__description--link {
     font-size: 20px;
     margin-right: 16px;
+    text-decoration: none;
 }
 
 
@@ -302,7 +305,48 @@ padding-top: 8px;
     color: #fff;
 }
 
-.fa-solid,
-.fa-brands {
-    color: #f8f8f8;
+
+/* FOOTER */
+
+footer {
+    background-color: #e5e5e5
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 28px;
+    font-weight: 700;
+
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.footer__logo--image {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: #414a4c;
+}
+
+
+.footer__logo--popper {
+    position: absolute;
+    right: 0;
 }
